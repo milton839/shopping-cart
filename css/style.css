@@ -194,13 +194,14 @@ a {
 }
 
 #modal-container {
-  position: fixed;
+  position: absolute;
   top: 70px;
   left: 925px;
   background-color: #fff;
   width: 400px;
   opacity: 0;
   max-width: 100%;
+  z-index: 99999;
 }
 
 #modal-container.show {
